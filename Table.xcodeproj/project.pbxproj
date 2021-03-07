@@ -15,6 +15,9 @@
 		33E01E4025F5830100234185 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E01E3F25F5830100234185 /* ExtensionDelegate.swift */; };
 		33E01E4225F5830100234185 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E01E4125F5830100234185 /* ComplicationController.swift */; };
 		33E01E4425F5830200234185 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33E01E4325F5830200234185 /* Assets.xcassets */; };
+		33E01E5725F583DC00234185 /* DetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E01E5625F583DC00234185 /* DetailController.swift */; };
+		33E01E5C25F583F300234185 /* TableRowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E01E5B25F583F300234185 /* TableRowController.swift */; };
+		33E01E6125F5842900234185 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E01E6025F5842900234185 /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +74,9 @@
 		33E01E4125F5830100234185 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
 		33E01E4325F5830200234185 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		33E01E4525F5830200234185 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33E01E5625F583DC00234185 /* DetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailController.swift; sourceTree = "<group>"; };
+		33E01E5B25F583F300234185 /* TableRowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableRowController.swift; sourceTree = "<group>"; };
+		33E01E6025F5842900234185 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Model.swift; path = "../../../../../.Trash/Tables/Tables WatchKit Extension/Model.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +123,9 @@
 			isa = PBXGroup;
 			children = (
 				33E01E3D25F5830100234185 /* InterfaceController.swift */,
+				33E01E6025F5842900234185 /* Model.swift */,
+				33E01E5625F583DC00234185 /* DetailController.swift */,
+				33E01E5B25F583F300234185 /* TableRowController.swift */,
 				33E01E3F25F5830100234185 /* ExtensionDelegate.swift */,
 				33E01E4125F5830100234185 /* ComplicationController.swift */,
 				33E01E4325F5830200234185 /* Assets.xcassets */,
@@ -251,7 +260,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33E01E5725F583DC00234185 /* DetailController.swift in Sources */,
 				33E01E4025F5830100234185 /* ExtensionDelegate.swift in Sources */,
+				33E01E5C25F583F300234185 /* TableRowController.swift in Sources */,
+				33E01E6125F5842900234185 /* Model.swift in Sources */,
 				33E01E3E25F5830100234185 /* InterfaceController.swift in Sources */,
 				33E01E4225F5830100234185 /* ComplicationController.swift in Sources */,
 			);
