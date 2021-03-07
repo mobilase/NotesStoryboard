@@ -11,6 +11,6 @@ import Foundation
 
 class TableRowController: NSObject {
 
-    @IBOutlet weak var title: WKInterfaceLabel!
+    @IBOutlet weak var itemLabel: WKInterfaceLabel!
     
 }

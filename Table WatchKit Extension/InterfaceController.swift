@@ -16,14 +16,13 @@ class InterfaceController: WKInterfaceController {
     override func awake(withContext context: Any?) {
         super.awake(withContext: context)
         table.setNumberOfRows(Model.getData().count, withRowType: "tableId")
-    }
-    
-    override func willActivate() {
-        // This method is called when watch view controller is about to be visible to user
-    }
-    
-    override func didDeactivate() {
-        // This method is called when watch view controller is no longer visible
+        for (index, item) in Model.getData().enumerated() {
+            let controller = table.rowController(at: index) as! TableRowController
+            controller.itemLabel.setText(item.title)
+        }
     }
 
+    override func contextForSegue(withIdentifier segueIdentifier: String, in table: WKInterfaceTable, rowIndex: Int) -> Any? {
+        return Model.getData()[rowIndex]
+    }
 }

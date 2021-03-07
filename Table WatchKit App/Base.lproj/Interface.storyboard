@@ -16,14 +16,14 @@
                                 <tableRow identifier="tableId" id="ytY-jo-avt" customClass="TableRowController" customModule="Table_WatchKit_Extension">
                                     <group key="rootItem" width="1" alignment="left" id="x0L-vA-I1K">
                                         <items>
-                                            <label alignment="left" verticalAlignment="center" text="Label" id="Njq-1p-UEc"/>
+                                            <label alignment="left" verticalAlignment="center" text="Item" id="Njq-1p-UEc"/>
                                         </items>
                                         <connections>
                                             <segue destination="d39-wN-VQI" kind="push" id="Oew-jV-cb9"/>
                                         </connections>
                                     </group>
                                     <connections>
-                                        <outlet property="title" destination="Njq-1p-UEc" id="xtk-ZE-ISb"/>
+                                        <outlet property="itemLabel" destination="Njq-1p-UEc" id="EAm-Dq-fq9"/>
                                     </connections>
                                 </tableRow>
                             </items>
@@ -41,10 +41,14 @@
             <objects>
                 <controller id="d39-wN-VQI" customClass="DetailController" customModule="Table_WatchKit_Extension">
                     <items>
-                        <label alignment="left" text="Label" id="CBB-8V-R1g"/>
+                        <label alignment="left" text="Title" id="CBB-8V-R1g">
+                            <fontDescription key="font" style="UICTFontTextStyleTitle1"/>
+                        </label>
+                        <label alignment="left" text="Text" numberOfLines="0" id="Nsr-8j-YJu"/>
                     </items>
                     <connections>
-                        <outlet property="title" destination="CBB-8V-R1g" id="YIg-W8-mAf"/>
+                        <outlet property="textLabel" destination="Nsr-8j-YJu" id="QF0-Pj-uE6"/>
+                        <outlet property="titleLabel" destination="CBB-8V-R1g" id="ekz-XK-RUc"/>
                     </connections>
                 </controller>
             </objects>
