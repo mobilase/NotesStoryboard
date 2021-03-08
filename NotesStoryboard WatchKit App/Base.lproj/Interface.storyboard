@@ -11,6 +11,13 @@
             <objects>
                 <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="NotesStoryboard_WatchKit_Extension">
                     <items>
+                        <button width="1" alignment="left" title="Добавить" id="RaX-Pv-PrT">
+                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <color key="backgroundColor" red="0.0" green="0.97680455450000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <connections>
+                                <segue destination="Nai-q1-9Yq" kind="push" id="oOb-fa-mt4"/>
+                            </connections>
+                        </button>
                         <table alignment="left" id="WsX-Wl-RK8">
                             <items>
                                 <tableRow identifier="tableId" id="ytY-jo-avt" customClass="TableRowController" customModule="NotesStoryboard_WatchKit_Extension">
@@ -36,6 +43,37 @@
             </objects>
             <point key="canvasLocation" x="317" y="98"/>
         </scene>
+        <!--Add Note Controller-->
+        <scene sceneID="8mF-T5-wod">
+            <objects>
+                <controller id="Nai-q1-9Yq" customClass="AddNoteController" customModule="NotesStoryboard_WatchKit_Extension">
+                    <items>
+                        <textField width="1" alignment="left" placeholder="Заголовок" id="DnV-LW-VIw">
+                            <connections>
+                                <action selector="changeTitle:" destination="Nai-q1-9Yq" id="tzN-de-G3o"/>
+                            </connections>
+                        </textField>
+                        <textField width="1" alignment="left" placeholder="Текст" id="SLc-ky-5Ku">
+                            <connections>
+                                <action selector="changeText:" destination="Nai-q1-9Yq" id="hi9-cd-oRG"/>
+                            </connections>
+                        </textField>
+                        <button width="1" alignment="left" title="Сохранить" id="fW2-uc-Afq">
+                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <color key="backgroundColor" red="0.0" green="0.97680455450000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <connections>
+                                <action selector="saveButton" destination="Nai-q1-9Yq" id="Mt6-cT-eyr"/>
+                            </connections>
+                        </button>
+                    </items>
+                    <connections>
+                        <outlet property="textEdit" destination="SLc-ky-5Ku" id="s9l-0w-2fm"/>
+                        <outlet property="titleEdit" destination="DnV-LW-VIw" id="7oz-UD-Yri"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="497" y="565"/>
+        </scene>
         <!--Detail Controller-->
         <scene sceneID="FLq-y4-LpF">
             <objects>
@@ -45,6 +83,13 @@
                             <fontDescription key="font" style="UICTFontTextStyleTitle1"/>
                         </label>
                         <label alignment="left" text="Text" numberOfLines="0" id="Nsr-8j-YJu"/>
+                        <button width="1" alignment="left" title=" Изменить" id="bV9-33-vhD">
+                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <color key="backgroundColor" red="0.0" green="0.97680455450000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <connections>
+                                <segue destination="Nai-q1-9Yq" kind="push" id="WCw-Ky-Tel"/>
+                            </connections>
+                        </button>
                     </items>
                     <connections>
                         <outlet property="textLabel" destination="Nsr-8j-YJu" id="QF0-Pj-uE6"/>
@@ -52,7 +97,10 @@
                     </connections>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="621" y="98"/>
+            <point key="canvasLocation" x="683" y="98"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="oOb-fa-mt4"/>
+    </inferredMetricsTieBreakers>
 </document>

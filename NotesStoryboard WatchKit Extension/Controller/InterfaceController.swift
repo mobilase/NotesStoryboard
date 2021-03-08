@@ -14,14 +14,14 @@ class InterfaceController: WKInterfaceController {
     
     override func awake(withContext context: Any?) {
         super.awake(withContext: context)
-        table.setNumberOfRows(Model.getData().count, withRowType: "tableId")
-        for (index, item) in Model.getData().enumerated() {
+        table.setNumberOfRows(Note.getData().count, withRowType: "tableId")
+        for (index, item) in Note.getData().enumerated() {
             let controller = table.rowController(at: index) as! TableRowController
             controller.itemLabel.setText(item.title)
         }
     }
 
     override func contextForSegue(withIdentifier segueIdentifier: String, in table: WKInterfaceTable, rowIndex: Int) -> Any? {
-        return Model.getData()[rowIndex]
+        return Note.getData()[rowIndex]
     }
 }
