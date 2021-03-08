@@ -23,8 +23,4 @@ class Note {
         Note(title: "4444", text: "444 444 444 444"),
         Note(title: "55555", text: "555 555 555 555 555")
     ]
-    
-    static func getData() -> [Note] {
-        return notes
-    }
 }
