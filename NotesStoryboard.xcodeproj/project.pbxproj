@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		33E01E2A25F582FE00234185 /* Table WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 33E01E2925F582FE00234185 /* Table WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		33E01E2A25F582FE00234185 /* NotesStoryboard WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 33E01E2925F582FE00234185 /* NotesStoryboard WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		33E01E3025F582FE00234185 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33E01E2E25F582FE00234185 /* Interface.storyboard */; };
 		33E01E3225F5830100234185 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33E01E3125F5830100234185 /* Assets.xcassets */; };
-		33E01E3925F5830100234185 /* Table WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 33E01E3825F5830100234185 /* Table WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		33E01E3925F5830100234185 /* NotesStoryboard WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 33E01E3825F5830100234185 /* NotesStoryboard WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		33E01E3E25F5830100234185 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E01E3D25F5830100234185 /* InterfaceController.swift */; };
 		33E01E4025F5830100234185 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E01E3F25F5830100234185 /* ExtensionDelegate.swift */; };
 		33E01E4225F5830100234185 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E01E4125F5830100234185 /* ComplicationController.swift */; };
@@ -44,7 +44,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				33E01E3925F5830100234185 /* Table WatchKit Extension.appex in Embed App Extensions */,
+				33E01E3925F5830100234185 /* NotesStoryboard WatchKit Extension.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -55,7 +55,7 @@
 			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
 			dstSubfolderSpec = 16;
 			files = (
-				33E01E2A25F582FE00234185 /* Table WatchKit App.app in Embed Watch Content */,
+				33E01E2A25F582FE00234185 /* NotesStoryboard WatchKit App.app in Embed Watch Content */,
 			);
 			name = "Embed Watch Content";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -63,12 +63,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		33E01E2525F582FD00234185 /* Table.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Table.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		33E01E2925F582FE00234185 /* Table WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Table WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		33E01E2525F582FD00234185 /* NotesStoryboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NotesStoryboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		33E01E2925F582FE00234185 /* NotesStoryboard WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NotesStoryboard WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		33E01E2F25F582FE00234185 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
 		33E01E3125F5830100234185 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		33E01E3325F5830100234185 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		33E01E3825F5830100234185 /* Table WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Table WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		33E01E3825F5830100234185 /* NotesStoryboard WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "NotesStoryboard WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		33E01E3D25F5830100234185 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
 		33E01E3F25F5830100234185 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
 		33E01E4125F5830100234185 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
@@ -102,9 +102,9 @@
 		33E01E2625F582FD00234185 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				33E01E2525F582FD00234185 /* Table.app */,
-				33E01E2925F582FE00234185 /* Table WatchKit App.app */,
-				33E01E3825F5830100234185 /* Table WatchKit Extension.appex */,
+				33E01E2525F582FD00234185 /* NotesStoryboard.app */,
+				33E01E2925F582FE00234185 /* NotesStoryboard WatchKit App.app */,
+				33E01E3825F5830100234185 /* NotesStoryboard WatchKit Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -137,9 +137,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		33E01E2425F582FD00234185 /* Table */ = {
+		33E01E2425F582FD00234185 /* NotesStoryboard */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 33E01E5025F5830200234185 /* Build configuration list for PBXNativeTarget "Table" */;
+			buildConfigurationList = 33E01E5025F5830200234185 /* Build configuration list for PBXNativeTarget "NotesStoryboard" */;
 			buildPhases = (
 				33E01E2325F582FD00234185 /* Resources */,
 				33E01E4F25F5830200234185 /* Embed Watch Content */,
@@ -149,14 +149,14 @@
 			dependencies = (
 				33E01E2C25F582FE00234185 /* PBXTargetDependency */,
 			);
-			name = Table;
+			name = NotesStoryboard;
 			productName = Table;
-			productReference = 33E01E2525F582FD00234185 /* Table.app */;
+			productReference = 33E01E2525F582FD00234185 /* NotesStoryboard.app */;
 			productType = "com.apple.product-type.application.watchapp2-container";
 		};
-		33E01E2825F582FE00234185 /* Table WatchKit App */ = {
+		33E01E2825F582FE00234185 /* NotesStoryboard WatchKit App */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 33E01E4C25F5830200234185 /* Build configuration list for PBXNativeTarget "Table WatchKit App" */;
+			buildConfigurationList = 33E01E4C25F5830200234185 /* Build configuration list for PBXNativeTarget "NotesStoryboard WatchKit App" */;
 			buildPhases = (
 				33E01E2725F582FE00234185 /* Resources */,
 				33E01E4B25F5830200234185 /* Embed App Extensions */,
@@ -166,14 +166,14 @@
 			dependencies = (
 				33E01E3B25F5830100234185 /* PBXTargetDependency */,
 			);
-			name = "Table WatchKit App";
+			name = "NotesStoryboard WatchKit App";
 			productName = "Table WatchKit App";
-			productReference = 33E01E2925F582FE00234185 /* Table WatchKit App.app */;
+			productReference = 33E01E2925F582FE00234185 /* NotesStoryboard WatchKit App.app */;
 			productType = "com.apple.product-type.application.watchapp2";
 		};
-		33E01E3725F5830100234185 /* Table WatchKit Extension */ = {
+		33E01E3725F5830100234185 /* NotesStoryboard WatchKit Extension */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 33E01E4825F5830200234185 /* Build configuration list for PBXNativeTarget "Table WatchKit Extension" */;
+			buildConfigurationList = 33E01E4825F5830200234185 /* Build configuration list for PBXNativeTarget "NotesStoryboard WatchKit Extension" */;
 			buildPhases = (
 				33E01E3425F5830100234185 /* Sources */,
 				33E01E3525F5830100234185 /* Frameworks */,
@@ -183,9 +183,9 @@
 			);
 			dependencies = (
 			);
-			name = "Table WatchKit Extension";
+			name = "NotesStoryboard WatchKit Extension";
 			productName = "Table WatchKit Extension";
-			productReference = 33E01E3825F5830100234185 /* Table WatchKit Extension.appex */;
+			productReference = 33E01E3825F5830100234185 /* NotesStoryboard WatchKit Extension.appex */;
 			productType = "com.apple.product-type.watchkit2-extension";
 		};
 /* End PBXNativeTarget section */
@@ -208,7 +208,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 33E01E2225F582FD00234185 /* Build configuration list for PBXProject "Table" */;
+			buildConfigurationList = 33E01E2225F582FD00234185 /* Build configuration list for PBXProject "NotesStoryboard" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -221,9 +221,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				33E01E2425F582FD00234185 /* Table */,
-				33E01E2825F582FE00234185 /* Table WatchKit App */,
-				33E01E3725F5830100234185 /* Table WatchKit Extension */,
+				33E01E2425F582FD00234185 /* NotesStoryboard */,
+				33E01E2825F582FE00234185 /* NotesStoryboard WatchKit App */,
+				33E01E3725F5830100234185 /* NotesStoryboard WatchKit Extension */,
 			);
 		};
 /* End PBXProject section */
@@ -274,12 +274,12 @@
 /* Begin PBXTargetDependency section */
 		33E01E2C25F582FE00234185 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 33E01E2825F582FE00234185 /* Table WatchKit App */;
+			target = 33E01E2825F582FE00234185 /* NotesStoryboard WatchKit App */;
 			targetProxy = 33E01E2B25F582FE00234185 /* PBXContainerItemProxy */;
 		};
 		33E01E3B25F5830100234185 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 33E01E3725F5830100234185 /* Table WatchKit Extension */;
+			target = 33E01E3725F5830100234185 /* NotesStoryboard WatchKit Extension */;
 			targetProxy = 33E01E3A25F5830100234185 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -523,7 +523,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		33E01E2225F582FD00234185 /* Build configuration list for PBXProject "Table" */ = {
+		33E01E2225F582FD00234185 /* Build configuration list for PBXProject "NotesStoryboard" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				33E01E4625F5830200234185 /* Debug */,
@@ -532,7 +532,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		33E01E4825F5830200234185 /* Build configuration list for PBXNativeTarget "Table WatchKit Extension" */ = {
+		33E01E4825F5830200234185 /* Build configuration list for PBXNativeTarget "NotesStoryboard WatchKit Extension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				33E01E4925F5830200234185 /* Debug */,
@@ -541,7 +541,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		33E01E4C25F5830200234185 /* Build configuration list for PBXNativeTarget "Table WatchKit App" */ = {
+		33E01E4C25F5830200234185 /* Build configuration list for PBXNativeTarget "NotesStoryboard WatchKit App" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				33E01E4D25F5830200234185 /* Debug */,
@@ -550,7 +550,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		33E01E5025F5830200234185 /* Build configuration list for PBXNativeTarget "Table" */ = {
+		33E01E5025F5830200234185 /* Build configuration list for PBXNativeTarget "NotesStoryboard" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				33E01E5125F5830200234185 /* Debug */,
