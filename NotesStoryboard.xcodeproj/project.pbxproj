@@ -93,8 +93,8 @@
 		33E01E1E25F582FD00234185 = {
 			isa = PBXGroup;
 			children = (
-				33E01E2D25F582FE00234185 /* Table WatchKit App */,
-				33E01E3C25F5830100234185 /* Table WatchKit Extension */,
+				33E01E2D25F582FE00234185 /* NotesStoryboard WatchKit App */,
+				33E01E3C25F5830100234185 /* NotesStoryboard WatchKit Extension */,
 				33E01E2625F582FD00234185 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -109,29 +109,45 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		33E01E2D25F582FE00234185 /* Table WatchKit App */ = {
+		33E01E2D25F582FE00234185 /* NotesStoryboard WatchKit App */ = {
 			isa = PBXGroup;
 			children = (
 				33E01E2E25F582FE00234185 /* Interface.storyboard */,
 				33E01E3125F5830100234185 /* Assets.xcassets */,
 				33E01E3325F5830100234185 /* Info.plist */,
 			);
-			path = "Table WatchKit App";
+			path = "NotesStoryboard WatchKit App";
 			sourceTree = "<group>";
 		};
-		33E01E3C25F5830100234185 /* Table WatchKit Extension */ = {
+		33E01E3C25F5830100234185 /* NotesStoryboard WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
-				33E01E3D25F5830100234185 /* InterfaceController.swift */,
-				33E01E5625F583DC00234185 /* DetailController.swift */,
-				33E01EBD25F594FE00234185 /* Model.swift */,
-				33E01E5B25F583F300234185 /* TableRowController.swift */,
+				33E01EE125F62CD500234185 /* Model */,
+				33E01EE025F62CCA00234185 /* Controller */,
 				33E01E3F25F5830100234185 /* ExtensionDelegate.swift */,
 				33E01E4125F5830100234185 /* ComplicationController.swift */,
 				33E01E4325F5830200234185 /* Assets.xcassets */,
 				33E01E4525F5830200234185 /* Info.plist */,
 			);
-			path = "Table WatchKit Extension";
+			path = "NotesStoryboard WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		33E01EE025F62CCA00234185 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				33E01E3D25F5830100234185 /* InterfaceController.swift */,
+				33E01E5625F583DC00234185 /* DetailController.swift */,
+				33E01E5B25F583F300234185 /* TableRowController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		33E01EE125F62CD500234185 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				33E01EBD25F594FE00234185 /* Model.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -347,6 +363,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -401,6 +418,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -416,13 +434,13 @@
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = X889W2W8F6;
-				INFOPLIST_FILE = "Table WatchKit Extension/Info.plist";
+				INFOPLIST_FILE = "NotesStoryboard WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = club.plus1.Table.watchkitapp.watchkitextension;
+				PRODUCT_BUNDLE_IDENTIFIER = club.plus1.NotesStoryboard.watchkitapp.watchkitextension;
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -438,13 +456,13 @@
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = X889W2W8F6;
-				INFOPLIST_FILE = "Table WatchKit Extension/Info.plist";
+				INFOPLIST_FILE = "NotesStoryboard WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = club.plus1.Table.watchkitapp.watchkitextension;
+				PRODUCT_BUNDLE_IDENTIFIER = club.plus1.NotesStoryboard.watchkitapp.watchkitextension;
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -462,9 +480,9 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = X889W2W8F6;
-				IBSC_MODULE = Table_WatchKit_Extension;
-				INFOPLIST_FILE = "Table WatchKit App/Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = club.plus1.Table.watchkitapp;
+				IBSC_MODULE = NotesStoryboard_WatchKit_Extension;
+				INFOPLIST_FILE = "NotesStoryboard WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = club.plus1.NotesStoryboard.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -482,9 +500,9 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = X889W2W8F6;
-				IBSC_MODULE = Table_WatchKit_Extension;
-				INFOPLIST_FILE = "Table WatchKit App/Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = club.plus1.Table.watchkitapp;
+				IBSC_MODULE = NotesStoryboard_WatchKit_Extension;
+				INFOPLIST_FILE = "NotesStoryboard WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = club.plus1.NotesStoryboard.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -501,7 +519,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = X889W2W8F6;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = club.plus1.Table;
+				PRODUCT_BUNDLE_IDENTIFIER = club.plus1.NotesStoryboard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -514,7 +532,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = X889W2W8F6;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = club.plus1.Table;
+				PRODUCT_BUNDLE_IDENTIFIER = club.plus1.NotesStoryboard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};

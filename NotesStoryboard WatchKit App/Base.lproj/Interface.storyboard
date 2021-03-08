@@ -9,11 +9,11 @@
         <!--Interface Controller-->
         <scene sceneID="aou-V4-d1y">
             <objects>
-                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="Table_WatchKit_App" customModuleProvider="target">
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="NotesStoryboard_WatchKit_Extension">
                     <items>
                         <table alignment="left" id="WsX-Wl-RK8">
                             <items>
-                                <tableRow identifier="tableId" id="ytY-jo-avt" customClass="TableRowController" customModule="Table_WatchKit_Extension">
+                                <tableRow identifier="tableId" id="ytY-jo-avt" customClass="TableRowController" customModule="NotesStoryboard_WatchKit_Extension">
                                     <group key="rootItem" width="1" alignment="left" id="x0L-vA-I1K">
                                         <items>
                                             <label alignment="left" verticalAlignment="center" text="Item" id="Njq-1p-UEc"/>
@@ -39,7 +39,7 @@
         <!--Detail Controller-->
         <scene sceneID="FLq-y4-LpF">
             <objects>
-                <controller id="d39-wN-VQI" customClass="DetailController" customModule="Table_WatchKit_Extension">
+                <controller id="d39-wN-VQI" customClass="DetailController" customModule="NotesStoryboard_WatchKit_Extension">
                     <items>
                         <label alignment="left" text="Title" id="CBB-8V-R1g">
                             <fontDescription key="font" style="UICTFontTextStyleTitle1"/>
