@@ -11,7 +11,7 @@
 		33E01E3025F582FE00234185 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33E01E2E25F582FE00234185 /* Interface.storyboard */; };
 		33E01E3225F5830100234185 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33E01E3125F5830100234185 /* Assets.xcassets */; };
 		33E01E3925F5830100234185 /* NotesStoryboard WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 33E01E3825F5830100234185 /* NotesStoryboard WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		33E01E3E25F5830100234185 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E01E3D25F5830100234185 /* InterfaceController.swift */; };
+		33E01E3E25F5830100234185 /* TableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E01E3D25F5830100234185 /* TableController.swift */; };
 		33E01E4025F5830100234185 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E01E3F25F5830100234185 /* ExtensionDelegate.swift */; };
 		33E01E4225F5830100234185 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E01E4125F5830100234185 /* ComplicationController.swift */; };
 		33E01E4425F5830200234185 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33E01E4325F5830200234185 /* Assets.xcassets */; };
@@ -70,7 +70,7 @@
 		33E01E3125F5830100234185 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		33E01E3325F5830100234185 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		33E01E3825F5830100234185 /* NotesStoryboard WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "NotesStoryboard WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
-		33E01E3D25F5830100234185 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		33E01E3D25F5830100234185 /* TableController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableController.swift; sourceTree = "<group>"; };
 		33E01E3F25F5830100234185 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
 		33E01E4125F5830100234185 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
 		33E01E4325F5830200234185 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -137,9 +137,9 @@
 		33E01EE025F62CCA00234185 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				33E01E3D25F5830100234185 /* InterfaceController.swift */,
 				33E01F0E25F6879C00234185 /* AddNoteController.swift */,
 				33E01E5625F583DC00234185 /* DetailController.swift */,
+				33E01E3D25F5830100234185 /* TableController.swift */,
 				33E01E5B25F583F300234185 /* TableRowController.swift */,
 			);
 			path = Controller;
@@ -283,7 +283,7 @@
 				33E01E4025F5830100234185 /* ExtensionDelegate.swift in Sources */,
 				33E01E5C25F583F300234185 /* TableRowController.swift in Sources */,
 				33E01EBE25F594FE00234185 /* Note.swift in Sources */,
-				33E01E3E25F5830100234185 /* InterfaceController.swift in Sources */,
+				33E01E3E25F5830100234185 /* TableController.swift in Sources */,
 				33E01E4225F5830100234185 /* ComplicationController.swift in Sources */,
 				33E01F0F25F6879C00234185 /* AddNoteController.swift in Sources */,
 			);

@@ -6,10 +6,10 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="17500"/>
     </dependencies>
     <scenes>
-        <!--Interface Controller-->
+        <!--Table Controller-->
         <scene sceneID="aou-V4-d1y">
             <objects>
-                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="NotesStoryboard_WatchKit_Extension">
+                <controller id="AgC-eL-Hgc" customClass="TableController" customModule="NotesStoryboard_WatchKit_Extension">
                     <items>
                         <button width="1" alignment="left" title="Добавить" id="RaX-Pv-PrT">
                             <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

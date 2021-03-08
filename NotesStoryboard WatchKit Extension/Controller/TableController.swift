@@ -8,7 +8,7 @@
 import WatchKit
 import Foundation
 
-class InterfaceController: WKInterfaceController {
+class TableController: WKInterfaceController {
 
     @IBOutlet weak var table: WKInterfaceTable!
     
